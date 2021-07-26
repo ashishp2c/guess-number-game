@@ -41,6 +41,7 @@ checkButton.addEventListener('click', function () {
         highScore.textContent = highScoreValue;
       }
       alert('You Won!!!');
+      // disable button if win
       checkButton.disabled = 'true';
     }
     // value entered is higher than secret number
