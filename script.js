@@ -42,7 +42,7 @@ checkButton.addEventListener('click', function () {
       }
       alert('You Won!!!');
       // disable button if win
-      checkButton.disabled = 'true';
+      checkButton.disabled = TRUE;
     }
     // value entered is higher than secret number
     else if (enteredValue > secretNumber) {
@@ -88,5 +88,5 @@ const gameReset = function () {
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').textContent = '?';
   document.querySelector('.number').style.width = '15rem';
-  checkButton.disabled = 'false';
+  checkButton.disabled = false;
 };
